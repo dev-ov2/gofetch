@@ -2,7 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and developed with love from Waunakee, WI.
 
-Before continuing, ensure you have [Yarn](https://yarnpkg.com/getting-started) installed.
+Before continuing, ensure you have [Yarn](https://yarnpkg.com/getting-started) installed, and update to the latest stable version or 3.5.1, whichever is earliest. This can be done at the time of writing by running `yarn set version stable`.
+
+Run `yarn install`, and you should be good to go!
 
 ## Available Scripts
 
