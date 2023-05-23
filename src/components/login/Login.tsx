@@ -12,10 +12,12 @@ const LoginForm = ({ onSubmit }: LoginFormProps) => {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    setFormFade("fade-out");
-    setTimeout(() => {
-      onSubmit(name, email);
-    }, 1500);
+    if (name.length > 0 && email.length > 0) {
+      setFormFade("fade-out");
+      setTimeout(() => {
+        onSubmit(name, email);
+      }, 1500);
+    }
   };
 
   const [titleFade, setTitleFade] = useState<string>();
