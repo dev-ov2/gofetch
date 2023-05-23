@@ -1,0 +1,55 @@
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce-animation {
+  animation: bounce 0.4s;
+}
+
+
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+opacity: 1;
+  }
+  50% {
+opacity: 1;
+  }
+  75% {
+opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.favorite-animation {
+  animation: fade 1.2s forwards;
+}
+
+
+.home {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
